@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>
+     GeeksforGeeks Survey Form   
+    </h1>
+  <form action="action_page.php" method="post">
+     Name  <br>
+     <input type="text" name="name" placeholder="enter your name"><br>
+     Email <br>
+     <input type="text" name="email" placeholder="enter your email"><br>
+     Age   <br>
+     <input type="number" class="age" placeholder="enter your age"><br>
+     which option best describes you? <br>
+   <select name="profession" id="profession">
+     <option value="student">student</option>
+     <option value="graduate">graduate</option>
+     <option value="masters">masters</option>
+     <option value="phd">phd</option>
+   </select><br>
+     would you recommend GeeksforGeeks to a friend?<br>
+     <input type="radio" name="yes" class="yes">
+     <label for="yes">Yes</label><br>
+     <input type="radio" name="no" class="no">
+     <label for="no">No</label><br>
+     <input type="radio" name="maybe" class="maybe">
+     <label for="maybe">Maybe</label><br>
+     languages and framework known (check all that apply) <br>
+     <input type="checkbox" name="c" id="c">
+     <label for="c">C</label><br>
+     <input type="checkbox" name="c++" id="c++">
+     <label for="c++">C++</label><br>
+     <input type="checkbox" name="c#" id="c#">
+     <label for="c#">C#</label><br>
+     <input type="checkbox" name="java" id="java">
+     <label for="java">Java</label><br>
+     <input type="checkbox" name="python" id="python">
+     <label for="python">Python</label><br>
+     <input type="checkbox" name="javascript" id="javascript">
+     <label for="javascript">Javascript</label><br>
+     <input type="checkbox" name="react" id="react">
+     <label for="react">React</label><br>
+     Any comments or suggestions <br>
+     <input type="text" class="comment"><br>
+     <input type="submit" id="submit">
+ </form>
+</body>
+</html>
